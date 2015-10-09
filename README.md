@@ -10,11 +10,13 @@ Level: **Intermediate**
 * [sbt](http://www.scala-sbt.org/download.html)
 * [git](https://git-scm.com/downloads)
 * [chrome](https://www.google.com/chrome/browser/desktop/index.html) or any web browser
+* [wireshark](https://www.wireshark.org/download.html) (*optional*)
 
 ## Preparation:
 
 ```
 $ git clone https://github.com/MasseGuillaume/DNS.git
+$ cd DNS
 $ sbt
 > kstart
 this last command opens scalakata in your browser
