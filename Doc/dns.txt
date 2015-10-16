@@ -1,0 +1,3157 @@
+Frame 1: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:47:46.496046000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172466.496046000 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 70 bytes (560 bits)
+    Capture Length: 70 bytes (560 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 56
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6547 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 36
+    Checksum: 0x85ed [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0x1032
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        google.com: type TXT, class IN
+            Name: google.com
+            [Name Length: 10]
+            [Label Count: 2]
+            Type: TXT (Text strings) (16)
+            Class: IN (0x0001)
+
+Frame 2: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:47:46.496576000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172466.496576000 seconds
+    [Time delta from previous captured frame: 0.000530000 seconds]
+    [Time delta from previous displayed frame: 0.000530000 seconds]
+    [Time since reference or first frame: 0.000530000 seconds]
+    Frame Number: 2
+    Frame Length: 98 bytes (784 bits)
+    Capture Length: 98 bytes (784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 84
+    Identification: 0xcbec (52204)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x993e [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 64
+    Checksum: 0xc725 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 1]
+    [Time: 0.000530000 seconds]
+    Transaction ID: 0x1032
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        google.com: type TXT, class IN
+            Name: google.com
+            [Name Length: 10]
+            [Label Count: 2]
+            Type: TXT (Text strings) (16)
+            Class: IN (0x0001)
+    Answers
+        google.com: type TXT, class IN
+            Name: google.com
+            Type: TXT (Text strings) (16)
+            Class: IN (0x0001)
+            Time to live: 270
+            Data length: 16
+            TXT Length: 15
+            TXT: v=spf1 ptr ?all
+
+Frame 3: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:47:50.501268000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172470.501268000 seconds
+    [Time delta from previous captured frame: 4.004692000 seconds]
+    [Time delta from previous displayed frame: 4.004692000 seconds]
+    [Time since reference or first frame: 4.005222000 seconds]
+    Frame Number: 3
+    Frame Length: 70 bytes (560 bits)
+    Capture Length: 70 bytes (560 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 56
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6547 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 36
+    Checksum: 0x9eb0 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0xf76f
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        google.com: type MX, class IN
+            Name: google.com
+            [Name Length: 10]
+            [Label Count: 2]
+            Type: MX (Mail eXchange) (15)
+            Class: IN (0x0001)
+
+Frame 4: 298 bytes on wire (2384 bits), 298 bytes captured (2384 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:47:51.333401000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172471.333401000 seconds
+    [Time delta from previous captured frame: 0.832133000 seconds]
+    [Time delta from previous displayed frame: 0.832133000 seconds]
+    [Time since reference or first frame: 4.837355000 seconds]
+    Frame Number: 4
+    Frame Length: 298 bytes (2384 bits)
+    Capture Length: 298 bytes (2384 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 284
+    Identification: 0xccbb (52411)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x97a7 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 264
+    Checksum: 0xd6f3 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 3]
+    [Time: 0.832133000 seconds]
+    Transaction ID: 0xf76f
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 6
+    Authority RRs: 0
+    Additional RRs: 6
+    Queries
+        google.com: type MX, class IN
+            Name: google.com
+            [Name Length: 10]
+            [Label Count: 2]
+            Type: MX (Mail eXchange) (15)
+            Class: IN (0x0001)
+    Answers
+        google.com: type MX, class IN, preference 40, mx smtp4.google.com
+            Name: google.com
+            Type: MX (Mail eXchange) (15)
+            Class: IN (0x0001)
+            Time to live: 552
+            Data length: 10
+            Preference: 40
+            Mail Exchange: smtp4.google.com
+        google.com: type MX, class IN, preference 10, mx smtp5.google.com
+            Name: google.com
+            Type: MX (Mail eXchange) (15)
+            Class: IN (0x0001)
+            Time to live: 552
+            Data length: 10
+            Preference: 10
+            Mail Exchange: smtp5.google.com
+        google.com: type MX, class IN, preference 10, mx smtp6.google.com
+            Name: google.com
+            Type: MX (Mail eXchange) (15)
+            Class: IN (0x0001)
+            Time to live: 552
+            Data length: 10
+            Preference: 10
+            Mail Exchange: smtp6.google.com
+        google.com: type MX, class IN, preference 10, mx smtp1.google.com
+            Name: google.com
+            Type: MX (Mail eXchange) (15)
+            Class: IN (0x0001)
+            Time to live: 552
+            Data length: 10
+            Preference: 10
+            Mail Exchange: smtp1.google.com
+        google.com: type MX, class IN, preference 10, mx smtp2.google.com
+            Name: google.com
+            Type: MX (Mail eXchange) (15)
+            Class: IN (0x0001)
+            Time to live: 552
+            Data length: 10
+            Preference: 10
+            Mail Exchange: smtp2.google.com
+        google.com: type MX, class IN, preference 40, mx smtp3.google.com
+            Name: google.com
+            Type: MX (Mail eXchange) (15)
+            Class: IN (0x0001)
+            Time to live: 552
+            Data length: 10
+            Preference: 40
+            Mail Exchange: smtp3.google.com
+    Additional records
+        smtp4.google.com: type A, class IN, addr 216.239.37.26
+            Name: smtp4.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 600
+            Data length: 4
+            Address: 216.239.37.26 (216.239.37.26)
+        smtp5.google.com: type A, class IN, addr 64.233.167.25
+            Name: smtp5.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 600
+            Data length: 4
+            Address: 64.233.167.25 (64.233.167.25)
+        smtp6.google.com: type A, class IN, addr 66.102.9.25
+            Name: smtp6.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 600
+            Data length: 4
+            Address: 66.102.9.25 (66.102.9.25)
+        smtp1.google.com: type A, class IN, addr 216.239.57.25
+            Name: smtp1.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 600
+            Data length: 4
+            Address: 216.239.57.25 (216.239.57.25)
+        smtp2.google.com: type A, class IN, addr 216.239.37.25
+            Name: smtp2.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 600
+            Data length: 4
+            Address: 216.239.37.25 (216.239.37.25)
+        smtp3.google.com: type A, class IN, addr 216.239.57.26
+            Name: smtp3.google.com
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 600
+            Data length: 4
+            Address: 216.239.57.26 (216.239.57.26)
+
+Frame 5: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:47:59.313231000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172479.313231000 seconds
+    [Time delta from previous captured frame: 7.979830000 seconds]
+    [Time delta from previous displayed frame: 7.979830000 seconds]
+    [Time since reference or first frame: 12.817185000 seconds]
+    Frame Number: 5
+    Frame Length: 70 bytes (560 bits)
+    Capture Length: 70 bytes (560 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 56
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6547 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 36
+    Checksum: 0x4c71 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0x49a1
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        google.com: type LOC, class IN
+            Name: google.com
+            [Name Length: 10]
+            [Label Count: 2]
+            Type: LOC (Location Information) (29)
+            Class: IN (0x0001)
+
+Frame 6: 70 bytes on wire (560 bits), 70 bytes captured (560 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:47:59.452255000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172479.452255000 seconds
+    [Time delta from previous captured frame: 0.139024000 seconds]
+    [Time delta from previous displayed frame: 0.139024000 seconds]
+    [Time since reference or first frame: 12.956209000 seconds]
+    Frame Number: 6
+    Frame Length: 70 bytes (560 bits)
+    Capture Length: 70 bytes (560 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 56
+    Identification: 0xcccd (52429)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x9879 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 36
+    Checksum: 0xcbf0 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 5]
+    [Time: 0.139024000 seconds]
+    Transaction ID: 0x49a1
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        google.com: type LOC, class IN
+            Name: google.com
+            [Name Length: 10]
+            [Label Count: 2]
+            Type: LOC (Location Information) (29)
+            Class: IN (0x0001)
+
+Frame 7: 85 bytes on wire (680 bits), 85 bytes captured (680 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:48:07.320873000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172487.320873000 seconds
+    [Time delta from previous captured frame: 7.868618000 seconds]
+    [Time delta from previous displayed frame: 7.868618000 seconds]
+    [Time since reference or first frame: 20.824827000 seconds]
+    Frame Number: 7
+    Frame Length: 85 bytes (680 bits)
+    Capture Length: 85 bytes (680 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 71
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6538 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 51
+    Checksum: 0x17c2 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0x9bbb
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        104.9.192.66.in-addr.arpa: type PTR, class IN
+            Name: 104.9.192.66.in-addr.arpa
+            [Name Length: 25]
+            [Label Count: 6]
+            Type: PTR (domain name PoinTeR) (12)
+            Class: IN (0x0001)
+
+Frame 8: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:48:07.321379000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172487.321379000 seconds
+    [Time delta from previous captured frame: 0.000506000 seconds]
+    [Time delta from previous displayed frame: 0.000506000 seconds]
+    [Time since reference or first frame: 20.825333000 seconds]
+    Frame Number: 8
+    Frame Length: 129 bytes (1032 bits)
+    Capture Length: 129 bytes (1032 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 115
+    Identification: 0xcd1b (52507)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x97f0 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 95
+    Checksum: 0x82b5 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 7]
+    [Time: 0.000506000 seconds]
+    Transaction ID: 0x9bbb
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        104.9.192.66.in-addr.arpa: type PTR, class IN
+            Name: 104.9.192.66.in-addr.arpa
+            [Name Length: 25]
+            [Label Count: 6]
+            Type: PTR (domain name PoinTeR) (12)
+            Class: IN (0x0001)
+    Answers
+        104.9.192.66.in-addr.arpa: type PTR, class IN, 66-192-9-104.gen.twtelecom.net
+            Name: 104.9.192.66.in-addr.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            Class: IN (0x0001)
+            Time to live: 86309
+            Data length: 32
+            Domain Name: 66-192-9-104.gen.twtelecom.net
+
+Frame 9: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:49:18.685951000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172558.685951000 seconds
+    [Time delta from previous captured frame: 71.364572000 seconds]
+    [Time delta from previous displayed frame: 71.364572000 seconds]
+    [Time since reference or first frame: 92.189905000 seconds]
+    Frame Number: 9
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6543 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 40
+    Checksum: 0xaf61 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0x75c0
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.netbsd.org: type A, class IN
+            Name: www.netbsd.org
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 10: 90 bytes on wire (720 bits), 90 bytes captured (720 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:49:18.734862000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172558.734862000 seconds
+    [Time delta from previous captured frame: 0.048911000 seconds]
+    [Time delta from previous displayed frame: 0.048911000 seconds]
+    [Time since reference or first frame: 92.238816000 seconds]
+    Frame Number: 10
+    Frame Length: 90 bytes (720 bits)
+    Capture Length: 90 bytes (720 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 76
+    Identification: 0xcff9 (53241)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x9539 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 56
+    Checksum: 0xa317 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 9]
+    [Time: 0.048911000 seconds]
+    Transaction ID: 0x75c0
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.netbsd.org: type A, class IN
+            Name: www.netbsd.org
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        www.netbsd.org: type A, class IN, addr 204.152.190.12
+            Name: www.netbsd.org
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 82159
+            Data length: 4
+            Address: 204.152.190.12 (204.152.190.12)
+
+Frame 11: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:49:35.461181000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172575.461181000 seconds
+    [Time delta from previous captured frame: 16.726319000 seconds]
+    [Time delta from previous displayed frame: 16.726319000 seconds]
+    [Time since reference or first frame: 108.965135000 seconds]
+    Frame Number: 11
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0x6f4c (28492)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0xf5f6 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 40
+    Checksum: 0x3432 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0xf0d4
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.netbsd.org: type AAAA, class IN
+            Name: www.netbsd.org
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+Frame 12: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:49:35.698849000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172575.698849000 seconds
+    [Time delta from previous captured frame: 0.237668000 seconds]
+    [Time delta from previous displayed frame: 0.237668000 seconds]
+    [Time since reference or first frame: 109.202803000 seconds]
+    Frame Number: 12
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 88
+    Identification: 0xd05a (53338)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x94cc [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 68
+    Checksum: 0x5f1b [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 11]
+    [Time: 0.237668000 seconds]
+    Transaction ID: 0xf0d4
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.netbsd.org: type AAAA, class IN
+            Name: www.netbsd.org
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    Answers
+        www.netbsd.org: type AAAA, class IN, addr 2001:4f8:4:7:2e0:81ff:fe52:9a6b
+            Name: www.netbsd.org
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 86400
+            Data length: 16
+            AAAA Address: 2001:4f8:4:7:2e0:81ff:fe52:9a6b (2001:4f8:4:7:2e0:81ff:fe52:9a6b)
+
+Frame 13: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:50:35.523440000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172635.523440000 seconds
+    [Time delta from previous captured frame: 59.824591000 seconds]
+    [Time delta from previous displayed frame: 59.824591000 seconds]
+    [Time since reference or first frame: 169.027394000 seconds]
+    Frame Number: 13
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6543 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 40
+    Checksum: 0xa5cd [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0x7f39
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.netbsd.org: type AAAA, class IN
+            Name: www.netbsd.org
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+Frame 14: 102 bytes on wire (816 bits), 102 bytes captured (816 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:50:35.523827000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172635.523827000 seconds
+    [Time delta from previous captured frame: 0.000387000 seconds]
+    [Time delta from previous displayed frame: 0.000387000 seconds]
+    [Time since reference or first frame: 169.027781000 seconds]
+    Frame Number: 14
+    Frame Length: 102 bytes (816 bits)
+    Capture Length: 102 bytes (816 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 88
+    Identification: 0xd44f (54351)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x90d7 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 68
+    Checksum: 0xd0f2 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 13]
+    [Time: 0.000387000 seconds]
+    Transaction ID: 0x7f39
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.netbsd.org: type AAAA, class IN
+            Name: www.netbsd.org
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    Answers
+        www.netbsd.org: type AAAA, class IN, addr 2001:4f8:4:7:2e0:81ff:fe52:9a6b
+            Name: www.netbsd.org
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 86340
+            Data length: 16
+            AAAA Address: 2001:4f8:4:7:2e0:81ff:fe52:9a6b (2001:4f8:4:7:2e0:81ff:fe52:9a6b)
+
+Frame 15: 74 bytes on wire (592 bits), 74 bytes captured (592 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:50:44.735890000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172644.735890000 seconds
+    [Time delta from previous captured frame: 9.212063000 seconds]
+    [Time delta from previous displayed frame: 9.212063000 seconds]
+    [Time since reference or first frame: 178.239844000 seconds]
+    Frame Number: 15
+    Frame Length: 74 bytes (592 bits)
+    Capture Length: 74 bytes (592 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 60
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6543 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 40
+    Checksum: 0x8d69 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0x8db3
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type AAAA, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+Frame 16: 94 bytes on wire (752 bits), 94 bytes captured (752 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:50:44.752428000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172644.752428000 seconds
+    [Time delta from previous captured frame: 0.016538000 seconds]
+    [Time delta from previous displayed frame: 0.016538000 seconds]
+    [Time since reference or first frame: 178.256382000 seconds]
+    Frame Number: 16
+    Frame Length: 94 bytes (752 bits)
+    Capture Length: 94 bytes (752 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 80
+    Identification: 0xd46d (54381)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x90c1 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 60
+    Checksum: 0x0dc1 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 15]
+    [Time: 0.016538000 seconds]
+    Transaction ID: 0x8db3
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.google.com: type AAAA, class IN
+            Name: www.google.com
+            [Name Length: 14]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+    Answers
+        www.google.com: type CNAME, class IN, cname www.l.google.com
+            Name: www.google.com
+            Type: CNAME (Canonical NAME for an alias) (5)
+            Class: IN (0x0001)
+            Time to live: 633
+            Data length: 8
+            CNAME: www.l.google.com
+
+Frame 17: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:50:54.349862000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172654.349862000 seconds
+    [Time delta from previous captured frame: 9.597434000 seconds]
+    [Time delta from previous displayed frame: 9.597434000 seconds]
+    [Time since reference or first frame: 187.853816000 seconds]
+    Frame Number: 17
+    Frame Length: 76 bytes (608 bits)
+    Capture Length: 76 bytes (608 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 62
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6541 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 42
+    Checksum: 0x3d0a [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0xdca2
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.l.google.com: type AAAA, class IN
+            Name: www.l.google.com
+            [Name Length: 16]
+            [Label Count: 4]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+Frame 18: 76 bytes on wire (608 bits), 76 bytes captured (608 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:50:54.366527000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172654.366527000 seconds
+    [Time delta from previous captured frame: 0.016665000 seconds]
+    [Time delta from previous displayed frame: 0.016665000 seconds]
+    [Time since reference or first frame: 187.870481000 seconds]
+    Frame Number: 18
+    Frame Length: 76 bytes (608 bits)
+    Capture Length: 76 bytes (608 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 62
+    Identification: 0xd539 (54585)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x9007 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 42
+    Checksum: 0xbc89 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 17]
+    [Time: 0.016665000 seconds]
+    Transaction ID: 0xdca2
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.l.google.com: type AAAA, class IN
+            Name: www.l.google.com
+            [Name Length: 16]
+            [Label Count: 4]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+Frame 19: 75 bytes on wire (600 bits), 75 bytes captured (600 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:51:35.204348000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172695.204348000 seconds
+    [Time delta from previous captured frame: 40.837821000 seconds]
+    [Time delta from previous displayed frame: 40.837821000 seconds]
+    [Time since reference or first frame: 228.708302000 seconds]
+    Frame Number: 19
+    Frame Length: 75 bytes (600 bits)
+    Capture Length: 75 bytes (600 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 61
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6542 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 41
+    Checksum: 0x8861 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0xbc1f
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.example.com: type AAAA, class IN
+            Name: www.example.com
+            [Name Length: 15]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+Frame 20: 75 bytes on wire (600 bits), 75 bytes captured (600 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:51:35.437491000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172695.437491000 seconds
+    [Time delta from previous captured frame: 0.233143000 seconds]
+    [Time delta from previous displayed frame: 0.233143000 seconds]
+    [Time since reference or first frame: 228.941445000 seconds]
+    Frame Number: 20
+    Frame Length: 75 bytes (600 bits)
+    Capture Length: 75 bytes (600 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 61
+    Identification: 0xd69f (54943)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x8ea2 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 41
+    Checksum: 0x07e1 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 19]
+    [Time: 0.233143000 seconds]
+    Transaction ID: 0xbc1f
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.example.com: type AAAA, class IN
+            Name: www.example.com
+            [Name Length: 15]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+Frame 21: 79 bytes on wire (632 bits), 79 bytes captured (632 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:51:46.819984000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172706.819984000 seconds
+    [Time delta from previous captured frame: 11.382493000 seconds]
+    [Time delta from previous displayed frame: 11.382493000 seconds]
+    [Time since reference or first frame: 240.323938000 seconds]
+    Frame Number: 21
+    Frame Length: 79 bytes (632 bits)
+    Capture Length: 79 bytes (632 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 65
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x653e [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 45
+    Checksum: 0x4428 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0x266d
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.example.notginh: type AAAA, class IN
+            Name: www.example.notginh
+            [Name Length: 19]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+Frame 22: 79 bytes on wire (632 bits), 79 bytes captured (632 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:51:47.032976000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172707.032976000 seconds
+    [Time delta from previous captured frame: 0.212992000 seconds]
+    [Time delta from previous displayed frame: 0.212992000 seconds]
+    [Time since reference or first frame: 240.536930000 seconds]
+    Frame Number: 22
+    Frame Length: 79 bytes (632 bits)
+    Capture Length: 79 bytes (632 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 65
+    Identification: 0xd72e (55086)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x8e0f [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 45
+    Checksum: 0xbfa4 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 21]
+    [Time: 0.212992000 seconds]
+    Transaction ID: 0x266d
+    Flags: 0x8583 Standard query response, No such name
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0011 = Reply code: No such name (3)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.example.notginh: type AAAA, class IN
+            Name: www.example.notginh
+            [Name Length: 19]
+            [Label Count: 3]
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+
+Frame 23: 71 bytes on wire (568 bits), 71 bytes captured (568 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.660780000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.660780000 seconds
+    [Time delta from previous captured frame: 30.627804000 seconds]
+    [Time delta from previous displayed frame: 30.627804000 seconds]
+    [Time since reference or first frame: 271.164734000 seconds]
+    Frame Number: 23
+    Frame Length: 71 bytes (568 bits)
+    Capture Length: 71 bytes (568 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 57
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x6546 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32795 (32795), Dst Port: 53 (53)
+    Source Port: 32795 (32795)
+    Destination Port: 53 (53)
+    Length: 37
+    Checksum: 0x426e [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (query)
+    Transaction ID: 0xfee3
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.isc.org: type ANY, class IN
+            Name: www.isc.org
+            [Name Length: 11]
+            [Label Count: 3]
+            Type: * (A request for all records the server/cache has available) (255)
+            Class: IN (0x0001)
+
+Frame 24: 115 bytes on wire (920 bits), 115 bytes captured (920 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.733384000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.733384000 seconds
+    [Time delta from previous captured frame: 0.072604000 seconds]
+    [Time delta from previous displayed frame: 0.072604000 seconds]
+    [Time since reference or first frame: 271.237338000 seconds]
+    Frame Number: 24
+    Frame Length: 115 bytes (920 bits)
+    Capture Length: 115 bytes (920 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 101
+    Identification: 0xd8f4 (55540)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x8c25 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32795 (32795)
+    Source Port: 53 (53)
+    Destination Port: 32795 (32795)
+    Length: 81
+    Checksum: 0xcb64 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Domain Name System (response)
+    [Request In: 23]
+    [Time: 0.072604000 seconds]
+    Transaction ID: 0xfee3
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.isc.org: type ANY, class IN
+            Name: www.isc.org
+            [Name Length: 11]
+            [Label Count: 3]
+            Type: * (A request for all records the server/cache has available) (255)
+            Class: IN (0x0001)
+    Answers
+        www.isc.org: type AAAA, class IN, addr 2001:4f8:0:2::d
+            Name: www.isc.org
+            Type: AAAA (IPv6 Address) (28)
+            Class: IN (0x0001)
+            Time to live: 600
+            Data length: 16
+            AAAA Address: 2001:4f8:0:2::d (2001:4f8:0:2::d)
+        www.isc.org: type A, class IN, addr 204.152.184.88
+            Name: www.isc.org
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+            Time to live: 600
+            Data length: 4
+            Address: 204.152.184.88 (204.152.184.88)
+
+Frame 25: 82 bytes on wire (656 bits), 82 bytes captured (656 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.737204000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.737204000 seconds
+    [Time delta from previous captured frame: 0.003820000 seconds]
+    [Time delta from previous displayed frame: 0.003820000 seconds]
+    [Time since reference or first frame: 271.241158000 seconds]
+    Frame Number: 25
+    Frame Length: 82 bytes (656 bits)
+    Capture Length: 82 bytes (656 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 68
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x653b [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32796 (32796), Dst Port: 53 (53)
+    Source Port: 32796 (32796)
+    Destination Port: 53 (53)
+    Length: 48
+    Checksum: 0x0235 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 1]
+Domain Name System (query)
+    Transaction ID: 0x5a53
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        1.0.0.127.in-addr.arpa: type PTR, class IN
+            Name: 1.0.0.127.in-addr.arpa
+            [Name Length: 22]
+            [Label Count: 6]
+            Type: PTR (domain name PoinTeR) (12)
+            Class: IN (0x0001)
+
+Frame 26: 105 bytes on wire (840 bits), 105 bytes captured (840 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.737792000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.737792000 seconds
+    [Time delta from previous captured frame: 0.000588000 seconds]
+    [Time delta from previous displayed frame: 0.000588000 seconds]
+    [Time since reference or first frame: 271.241746000 seconds]
+    Frame Number: 26
+    Frame Length: 105 bytes (840 bits)
+    Capture Length: 105 bytes (840 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 91
+    Identification: 0xd8f5 (55541)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x8c2e [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32796 (32796)
+    Source Port: 53 (53)
+    Destination Port: 32796 (32796)
+    Length: 71
+    Checksum: 0xf930 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 1]
+Domain Name System (response)
+    [Request In: 25]
+    [Time: 0.000588000 seconds]
+    Transaction ID: 0x5a53
+    Flags: 0x8580 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        1.0.0.127.in-addr.arpa: type PTR, class IN
+            Name: 1.0.0.127.in-addr.arpa
+            [Name Length: 22]
+            [Label Count: 6]
+            Type: PTR (domain name PoinTeR) (12)
+            Class: IN (0x0001)
+    Answers
+        1.0.0.127.in-addr.arpa: type PTR, class IN, localhost
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (domain name PoinTeR) (12)
+            Class: IN (0x0001)
+            Time to live: 3600
+            Data length: 11
+            Domain Name: localhost
+
+Frame 27: 67 bytes on wire (536 bits), 67 bytes captured (536 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.740166000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.740166000 seconds
+    [Time delta from previous captured frame: 0.002374000 seconds]
+    [Time delta from previous displayed frame: 0.002374000 seconds]
+    [Time since reference or first frame: 271.244120000 seconds]
+    Frame Number: 27
+    Frame Length: 67 bytes (536 bits)
+    Capture Length: 67 bytes (536 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad), Dst: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+    Destination: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.8 (192.168.170.8), Dst: 192.168.170.20 (192.168.170.20)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 53
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (17)
+    Header checksum: 0x654a [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.8 (192.168.170.8)
+    Destination: 192.168.170.20 (192.168.170.20)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 32797 (32797), Dst Port: 53 (53)
+    Source Port: 32797 (32797)
+    Destination Port: 53 (53)
+    Length: 33
+    Checksum: 0x98bd [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 2]
+Domain Name System (query)
+    Transaction ID: 0x208a
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        isc.org: type NS, class IN
+            Name: isc.org
+            [Name Length: 7]
+            [Label Count: 2]
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+
+Frame 28: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.755930000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.755930000 seconds
+    [Time delta from previous captured frame: 0.015764000 seconds]
+    [Time delta from previous displayed frame: 0.015764000 seconds]
+    [Time since reference or first frame: 271.259884000 seconds]
+    Frame Number: 28
+    Frame Length: 129 bytes (1032 bits)
+    Capture Length: 129 bytes (1032 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_45:e4:55 (00:60:08:45:e4:55), Dst: 3com_00:32:23 (00:12:a9:00:32:23)
+    Destination: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.56 (192.168.170.56), Dst: 217.13.4.24 (217.13.4.24)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 115
+    Identification: 0x87de (34782)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x6a95 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.56 (192.168.170.56)
+    Destination: 217.13.4.24 (217.13.4.24)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 1707 (1707), Dst Port: 53 (53)
+    Source Port: 1707 (1707)
+    Destination Port: 53 (53)
+    Length: 95
+    Checksum: 0x39f0 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 3]
+Domain Name System (query)
+    Transaction ID: 0x326e
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        _ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.utelsystems.local: type SRV, class IN
+            Name: _ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.utelsystems.local
+            [Name Length: 69]
+            [Label Count: 8]
+            Type: SRV (Server Selection) (33)
+            Class: IN (0x0001)
+
+Frame 29: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.758453000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.758453000 seconds
+    [Time delta from previous captured frame: 0.002523000 seconds]
+    [Time delta from previous displayed frame: 0.002523000 seconds]
+    [Time since reference or first frame: 271.262407000 seconds]
+    Frame Number: 29
+    Frame Length: 166 bytes (1328 bits)
+    Capture Length: 166 bytes (1328 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: QuantaCo_32:41:8c (00:c0:9f:32:41:8c), Dst: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+    Destination: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        Address: AsustekC_b1:0c:ad (00:e0:18:b1:0c:ad)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        Address: QuantaCo_32:41:8c (00:c0:9f:32:41:8c)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.20 (192.168.170.20), Dst: 192.168.170.8 (192.168.170.8)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 152
+    Identification: 0xd8f7 (55543)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x8bef [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.20 (192.168.170.20)
+    Destination: 192.168.170.8 (192.168.170.8)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 32797 (32797)
+    Source Port: 53 (53)
+    Destination Port: 32797 (32797)
+    Length: 132
+    Checksum: 0x7bd8 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 2]
+Domain Name System (response)
+    [Request In: 27]
+    [Time: 0.018287000 seconds]
+    Transaction ID: 0x208a
+    Flags: 0x8180 Standard query response, No error
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 4
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        isc.org: type NS, class IN
+            Name: isc.org
+            [Name Length: 7]
+            [Label Count: 2]
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+    Answers
+        isc.org: type NS, class IN, ns ns-ext.nrt1.isc.org
+            Name: isc.org
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 3600
+            Data length: 14
+            Name Server: ns-ext.nrt1.isc.org
+        isc.org: type NS, class IN, ns ns-ext.sth1.isc.org
+            Name: isc.org
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 3600
+            Data length: 14
+            Name Server: ns-ext.sth1.isc.org
+        isc.org: type NS, class IN, ns ns-ext.isc.org
+            Name: isc.org
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 3600
+            Data length: 9
+            Name Server: ns-ext.isc.org
+        isc.org: type NS, class IN, ns ns-ext.lga1.isc.org
+            Name: isc.org
+            Type: NS (authoritative Name Server) (2)
+            Class: IN (0x0001)
+            Time to live: 3600
+            Data length: 14
+            Name Server: ns-ext.lga1.isc.org
+
+Frame 30: 129 bytes on wire (1032 bits), 129 bytes captured (1032 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.775741000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.775741000 seconds
+    [Time delta from previous captured frame: 0.017288000 seconds]
+    [Time delta from previous displayed frame: 0.017288000 seconds]
+    [Time since reference or first frame: 271.279695000 seconds]
+    Frame Number: 30
+    Frame Length: 129 bytes (1032 bits)
+    Capture Length: 129 bytes (1032 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_00:32:23 (00:12:a9:00:32:23), Dst: 3com_45:e4:55 (00:60:08:45:e4:55)
+    Destination: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 217.13.4.24 (217.13.4.24), Dst: 192.168.170.56 (192.168.170.56)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 115
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 58
+    Protocol: UDP (17)
+    Header checksum: 0xf873 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 217.13.4.24 (217.13.4.24)
+    Destination: 192.168.170.56 (192.168.170.56)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 1707 (1707)
+    Source Port: 53 (53)
+    Destination Port: 1707 (1707)
+    Length: 95
+    Checksum: 0xb56c [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 3]
+Domain Name System (response)
+    [Request In: 28]
+    [Time: 0.019811000 seconds]
+    Transaction ID: 0x326e
+    Flags: 0x8583 Standard query response, No such name
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0011 = Reply code: No such name (3)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        _ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.utelsystems.local: type SRV, class IN
+            Name: _ldap._tcp.Default-First-Site-Name._sites.dc._msdcs.utelsystems.local
+            [Name Length: 69]
+            [Label Count: 8]
+            Type: SRV (Server Selection) (33)
+            Class: IN (0x0001)
+
+Frame 31: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.776396000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.776396000 seconds
+    [Time delta from previous captured frame: 0.000655000 seconds]
+    [Time delta from previous displayed frame: 0.000655000 seconds]
+    [Time since reference or first frame: 271.280350000 seconds]
+    Frame Number: 31
+    Frame Length: 98 bytes (784 bits)
+    Capture Length: 98 bytes (784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_45:e4:55 (00:60:08:45:e4:55), Dst: 3com_00:32:23 (00:12:a9:00:32:23)
+    Destination: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.56 (192.168.170.56), Dst: 217.13.4.24 (217.13.4.24)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 84
+    Identification: 0x87f0 (34800)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x6aa2 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.56 (192.168.170.56)
+    Destination: 217.13.4.24 (217.13.4.24)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 1708 (1708), Dst Port: 53 (53)
+    Source Port: 1708 (1708)
+    Destination Port: 53 (53)
+    Length: 64
+    Checksum: 0x7c51 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 4]
+Domain Name System (query)
+    Transaction ID: 0xf161
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        _ldap._tcp.dc._msdcs.utelsystems.local: type SRV, class IN
+            Name: _ldap._tcp.dc._msdcs.utelsystems.local
+            [Name Length: 38]
+            [Label Count: 6]
+            Type: SRV (Server Selection) (33)
+            Class: IN (0x0001)
+
+Frame 32: 98 bytes on wire (784 bits), 98 bytes captured (784 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.793697000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.793697000 seconds
+    [Time delta from previous captured frame: 0.017301000 seconds]
+    [Time delta from previous displayed frame: 0.017301000 seconds]
+    [Time since reference or first frame: 271.297651000 seconds]
+    Frame Number: 32
+    Frame Length: 98 bytes (784 bits)
+    Capture Length: 98 bytes (784 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_00:32:23 (00:12:a9:00:32:23), Dst: 3com_45:e4:55 (00:60:08:45:e4:55)
+    Destination: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 217.13.4.24 (217.13.4.24), Dst: 192.168.170.56 (192.168.170.56)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 84
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 58
+    Protocol: UDP (17)
+    Header checksum: 0xf892 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 217.13.4.24 (217.13.4.24)
+    Destination: 192.168.170.56 (192.168.170.56)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 1708 (1708)
+    Source Port: 53 (53)
+    Destination Port: 1708 (1708)
+    Length: 64
+    Checksum: 0xf7cd [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 4]
+Domain Name System (response)
+    [Request In: 31]
+    [Time: 0.017301000 seconds]
+    Transaction ID: 0xf161
+    Flags: 0x8583 Standard query response, No such name
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0011 = Reply code: No such name (3)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        _ldap._tcp.dc._msdcs.utelsystems.local: type SRV, class IN
+            Name: _ldap._tcp.dc._msdcs.utelsystems.local
+            [Name Length: 38]
+            [Label Count: 6]
+            Type: SRV (Server Selection) (33)
+            Class: IN (0x0001)
+
+Frame 33: 140 bytes on wire (1120 bits), 140 bytes captured (1120 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.794240000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.794240000 seconds
+    [Time delta from previous captured frame: 0.000543000 seconds]
+    [Time delta from previous displayed frame: 0.000543000 seconds]
+    [Time since reference or first frame: 271.298194000 seconds]
+    Frame Number: 33
+    Frame Length: 140 bytes (1120 bits)
+    Capture Length: 140 bytes (1120 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_45:e4:55 (00:60:08:45:e4:55), Dst: 3com_00:32:23 (00:12:a9:00:32:23)
+    Destination: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.56 (192.168.170.56), Dst: 217.13.4.24 (217.13.4.24)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 126
+    Identification: 0x87f1 (34801)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x6a77 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.56 (192.168.170.56)
+    Destination: 217.13.4.24 (217.13.4.24)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 1709 (1709), Dst Port: 53 (53)
+    Source Port: 1709 (1709)
+    Destination Port: 53 (53)
+    Length: 106
+    Checksum: 0x7798 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 5]
+Domain Name System (query)
+    Transaction ID: 0x8361
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        _ldap._tcp.05b5292b-34b8-4fb7-85a3-8beef5fd2069.domains._msdcs.utelsystems.local: type SRV, class IN
+            Name: _ldap._tcp.05b5292b-34b8-4fb7-85a3-8beef5fd2069.domains._msdcs.utelsystems.local
+            [Name Length: 80]
+            [Label Count: 7]
+            Type: SRV (Server Selection) (33)
+            Class: IN (0x0001)
+
+Frame 34: 140 bytes on wire (1120 bits), 140 bytes captured (1120 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.813924000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.813924000 seconds
+    [Time delta from previous captured frame: 0.019684000 seconds]
+    [Time delta from previous displayed frame: 0.019684000 seconds]
+    [Time since reference or first frame: 271.317878000 seconds]
+    Frame Number: 34
+    Frame Length: 140 bytes (1120 bits)
+    Capture Length: 140 bytes (1120 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_00:32:23 (00:12:a9:00:32:23), Dst: 3com_45:e4:55 (00:60:08:45:e4:55)
+    Destination: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 217.13.4.24 (217.13.4.24), Dst: 192.168.170.56 (192.168.170.56)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 126
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 58
+    Protocol: UDP (17)
+    Header checksum: 0xf868 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 217.13.4.24 (217.13.4.24)
+    Destination: 192.168.170.56 (192.168.170.56)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 1709 (1709)
+    Source Port: 53 (53)
+    Destination Port: 1709 (1709)
+    Length: 106
+    Checksum: 0xf314 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 5]
+Domain Name System (response)
+    [Request In: 33]
+    [Time: 0.019684000 seconds]
+    Transaction ID: 0x8361
+    Flags: 0x8583 Standard query response, No such name
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0011 = Reply code: No such name (3)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        _ldap._tcp.05b5292b-34b8-4fb7-85a3-8beef5fd2069.domains._msdcs.utelsystems.local: type SRV, class IN
+            Name: _ldap._tcp.05b5292b-34b8-4fb7-85a3-8beef5fd2069.domains._msdcs.utelsystems.local
+            [Name Length: 80]
+            [Label Count: 7]
+            Type: SRV (Server Selection) (33)
+            Class: IN (0x0001)
+
+Frame 35: 83 bytes on wire (664 bits), 83 bytes captured (664 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.915705000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.915705000 seconds
+    [Time delta from previous captured frame: 0.101781000 seconds]
+    [Time delta from previous displayed frame: 0.101781000 seconds]
+    [Time since reference or first frame: 271.419659000 seconds]
+    Frame Number: 35
+    Frame Length: 83 bytes (664 bits)
+    Capture Length: 83 bytes (664 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_45:e4:55 (00:60:08:45:e4:55), Dst: 3com_00:32:23 (00:12:a9:00:32:23)
+    Destination: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.56 (192.168.170.56), Dst: 217.13.4.24 (217.13.4.24)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 69
+    Identification: 0x87f5 (34805)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x6aac [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.56 (192.168.170.56)
+    Destination: 217.13.4.24 (217.13.4.24)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 1710 (1710), Dst Port: 53 (53)
+    Source Port: 1710 (1710)
+    Destination Port: 53 (53)
+    Length: 49
+    Checksum: 0x1a8d [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 6]
+Domain Name System (query)
+    Transaction ID: 0xd060
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        GRIMM.utelsystems.local: type A, class IN
+            Name: GRIMM.utelsystems.local
+            [Name Length: 23]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 36: 83 bytes on wire (664 bits), 83 bytes captured (664 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:17.932629000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172737.932629000 seconds
+    [Time delta from previous captured frame: 0.016924000 seconds]
+    [Time delta from previous displayed frame: 0.016924000 seconds]
+    [Time since reference or first frame: 271.436583000 seconds]
+    Frame Number: 36
+    Frame Length: 83 bytes (664 bits)
+    Capture Length: 83 bytes (664 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_00:32:23 (00:12:a9:00:32:23), Dst: 3com_45:e4:55 (00:60:08:45:e4:55)
+    Destination: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 217.13.4.24 (217.13.4.24), Dst: 192.168.170.56 (192.168.170.56)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 69
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 58
+    Protocol: UDP (17)
+    Header checksum: 0xf8a1 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 217.13.4.24 (217.13.4.24)
+    Destination: 192.168.170.56 (192.168.170.56)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 1710 (1710)
+    Source Port: 53 (53)
+    Destination Port: 1710 (1710)
+    Length: 49
+    Checksum: 0x9609 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 6]
+Domain Name System (response)
+    [Request In: 35]
+    [Time: 0.016924000 seconds]
+    Transaction ID: 0xd060
+    Flags: 0x8583 Standard query response, No such name
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0011 = Reply code: No such name (3)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        GRIMM.utelsystems.local: type A, class IN
+            Name: GRIMM.utelsystems.local
+            [Name Length: 23]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 37: 83 bytes on wire (664 bits), 83 bytes captured (664 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:25.357346000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172745.357346000 seconds
+    [Time delta from previous captured frame: 7.424717000 seconds]
+    [Time delta from previous displayed frame: 7.424717000 seconds]
+    [Time since reference or first frame: 278.861300000 seconds]
+    Frame Number: 37
+    Frame Length: 83 bytes (664 bits)
+    Capture Length: 83 bytes (664 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_45:e4:55 (00:60:08:45:e4:55), Dst: 3com_00:32:23 (00:12:a9:00:32:23)
+    Destination: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 192.168.170.56 (192.168.170.56), Dst: 217.13.4.24 (217.13.4.24)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 69
+    Identification: 0x87fb (34811)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x6aa6 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 192.168.170.56 (192.168.170.56)
+    Destination: 217.13.4.24 (217.13.4.24)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 1711 (1711), Dst Port: 53 (53)
+    Source Port: 1711 (1711)
+    Destination Port: 53 (53)
+    Length: 49
+    Checksum: 0x7489 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 7]
+Domain Name System (query)
+    Transaction ID: 0x7663
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        GRIMM.utelsystems.local: type A, class IN
+            Name: GRIMM.utelsystems.local
+            [Name Length: 23]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
+Frame 38: 83 bytes on wire (664 bits), 83 bytes captured (664 bits)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 30, 2005 03:52:25.375359000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1112172745.375359000 seconds
+    [Time delta from previous captured frame: 0.018013000 seconds]
+    [Time delta from previous displayed frame: 0.018013000 seconds]
+    [Time since reference or first frame: 278.879313000 seconds]
+    Frame Number: 38
+    Frame Length: 83 bytes (664 bits)
+    Capture Length: 83 bytes (664 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+Ethernet II, Src: 3com_00:32:23 (00:12:a9:00:32:23), Dst: 3com_45:e4:55 (00:60:08:45:e4:55)
+    Destination: 3com_45:e4:55 (00:60:08:45:e4:55)
+        Address: 3com_45:e4:55 (00:60:08:45:e4:55)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 3com_00:32:23 (00:12:a9:00:32:23)
+        Address: 3com_00:32:23 (00:12:a9:00:32:23)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IP (0x0800)
+Internet Protocol Version 4, Src: 217.13.4.24 (217.13.4.24), Dst: 192.168.170.56 (192.168.170.56)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..00 = Explicit Congestion Notification: Not-ECT (Not ECN-Capable Transport) (0x00)
+    Total Length: 69
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 58
+    Protocol: UDP (17)
+    Header checksum: 0xf8a1 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 217.13.4.24 (217.13.4.24)
+    Destination: 192.168.170.56 (192.168.170.56)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 1711 (1711)
+    Source Port: 53 (53)
+    Destination Port: 1711 (1711)
+    Length: 49
+    Checksum: 0xf005 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 7]
+Domain Name System (response)
+    [Request In: 37]
+    [Time: 0.018013000 seconds]
+    Transaction ID: 0x7663
+    Flags: 0x8583 Standard query response, No such name
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+        .... .... .... 0011 = Reply code: No such name (3)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        GRIMM.utelsystems.local: type A, class IN
+            Name: GRIMM.utelsystems.local
+            [Name Length: 23]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+
