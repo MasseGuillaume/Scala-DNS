@@ -4,8 +4,7 @@ import scodec.{bits => _, _}
 import scodec.codecs._
 import scodec.bits._
 
-@instrument class Dns {  
-  def bit = bool(1)
+@instrument class DnsRequest {  
   case class Request(transactionID: Int, name: List[String])
   def dnsString = new Codec[List[String]] {
     def sizeBound = SizeBound.unknown
@@ -50,15 +49,22 @@ import scodec.bits._
     ("Class"                  | constant(hex"00 01"))
   ).dropUnits.as[Request]
 
-  val message = hex"""edf8
-                      0100
-                      0010
-                      0000
-                      0000
-                      0000
-                      0961736b7562756e747503636f6d00
-                      0001
-                      0001""".bits
+  val requestMessage = (
+    hex"75c0"                             ++  // Transaction ID
+    hex"0100"                             ++  // Flags (Response, ..., Non-authenticated data)
+    hex"0001"                             ++  // Questions
+    hex"0000"                             ++  // Answer RRs
+    hex"0000"                             ++  // Authority RRs
+    hex"0000"                             ++  // Additional RRs
+    hex"03777777066e6574627364036f726700" ++  // Name
+    hex"0001"                             ++  // Type
+    hex"0001"                                 // Class
+  ).bits
+
+  requestCodec.decode(requestMessage)
   
- requestCodec.decode(message)
+  
+  def roundTrip[T](v: T, codec: Codec[T]) = codec.encode(v).flatMap(codec.decode).map(_.value)
+  
+  roundTrip(Request(30144, List("www", "netbsd", "org")), requestCodec)
 }
