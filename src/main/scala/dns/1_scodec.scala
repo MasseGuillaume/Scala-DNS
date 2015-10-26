@@ -1,3 +1,5 @@
+package dns
+
 import scodec._
 import scodec.bits._
 import codecs._

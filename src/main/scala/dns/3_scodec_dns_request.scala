@@ -1,3 +1,5 @@
+package dns
+
 import scodec.{bits => _, _}
 import scodec.codecs._
 import scodec.bits._

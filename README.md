@@ -28,3 +28,9 @@ this last command opens scalakata in your browser
 * [scodec](http://scodec.org/guide/)
 * [rfc1035](https://www.ietf.org/rfc/rfc1035.txt)
 * [rfc1034](https://www.ietf.org/rfc/rfc1034.txt)
+
+## Standalone
+
+$ sbt assembly
+$ cd DNS/target/scala-2.11
+$ sudo java -cp scalakata-assembly-0.1-SNAPSHOT.jar dns.Standalone

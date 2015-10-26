@@ -1,3 +1,5 @@
+package dns
+
 import scodec.{bits => _, _}
 import scodec.codecs._
 import scodec.bits._
@@ -6,7 +8,7 @@ import scalaz.concurrent.Task
 import java.net.InetSocketAddress
 import java.util.concurrent.CountDownLatch
 
-trait ClientServer extends DnsRequest with DnsResponse {
+object ClientServer extends DnsRequest with DnsResponse {
 
   val port = 7890
   val addr = new InetSocketAddress("127.0.0.1", port)
@@ -22,15 +24,23 @@ trait ClientServer extends DnsRequest with DnsResponse {
     )
   
   def dnsLogic(request: Request): Response = {
+    println(s"dnsLogic $request")
     val catz = IPV4(104, 131, 51, 57)
-    Response(request.transactionID , request.name, catz)
+    val res = Response(request.transactionID , request.name, catz)
+    println(res)
+    res
   }
   
   def server(p: Int) = udp.listen(p) {
     udp.eval_(Task.delay { latch.countDown }) ++
     (for {
       packet <- udp.receive(maxSize)
-      request <- asProcess(requestCodec.decode(packet.bytes.bits)).map(_.value)
+      request <- {
+        println(packet.bytes.bits)
+        val res = asProcess(requestCodec.decode(packet.bytes.bits)).map(_.value)
+        println(res)
+        res
+      }
       response <- asProcess(responseCodec.encode(dnsLogic(request)))
       _ <- udp.send(to = packet.origin, response.bytes) 
     } yield Nil)

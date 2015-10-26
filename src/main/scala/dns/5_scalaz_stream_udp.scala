@@ -1,3 +1,5 @@
+package dns
+
 import scodec.bits._
 import scalaz.stream._
 import scalaz.concurrent.Task
