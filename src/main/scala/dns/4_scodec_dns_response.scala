@@ -27,8 +27,8 @@ trait DnsResponse extends DnsString {
   def part1 = (
     ("Transaction ID"         | uint16)               ::
     flags :::
-    ("Questions"              | ignore(16))           ::
-    ("Answer RRs"             | ignore(16))           ::
+    ("Questions"              | constant(hex"00 01")) ::
+    ("Answer RRs"             | constant(hex"00 01")) ::
     ("Authority RRs"          | ignore(16))           ::
     ("Additional RRs"         | ignore(16))           ::
     ("Name"                   | dnsString)            ::
@@ -42,7 +42,7 @@ trait DnsResponse extends DnsString {
     ("Type"                   | constant(hex"00 01")) ::
     ("Class"                  | constant(hex"00 01")) ::
     ("TTL"                    | ignore(32))           ::
-    ("Data Length"            | ignore(16))           ::
+    ("Data Length"            | constant(hex"00 04")) ::
     ("Address"                | ipv4)
   ).dropUnits.as[Response]
   

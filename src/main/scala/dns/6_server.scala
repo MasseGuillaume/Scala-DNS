@@ -24,23 +24,19 @@ object ClientServer extends DnsRequest with DnsResponse {
     )
   
   def dnsLogic(request: Request): Response = {
-    println(s"dnsLogic $request")
     val catz = IPV4(104, 131, 51, 57)
-    val res = Response(request.transactionID , request.name, catz)
-    println(res)
-    res
+    val imgurIP = IPV4(23,23,110,58)
+    val ip =
+      if(request.name == List("i", "imgur", "com")) imgurIP
+      else catz 
+    Response(request.transactionID , request.name, ip)
   }
   
   def server(p: Int) = udp.listen(p) {
     udp.eval_(Task.delay { latch.countDown }) ++
     (for {
       packet <- udp.receive(maxSize)
-      request <- {
-        println(packet.bytes.bits)
-        val res = asProcess(requestCodec.decode(packet.bytes.bits)).map(_.value)
-        println(res)
-        res
-      }
+      request <- asProcess(requestCodec.decode(packet.bytes.bits)).map(_.value)
       response <- asProcess(responseCodec.encode(dnsLogic(request)))
       _ <- udp.send(to = packet.origin, response.bytes) 
     } yield Nil)
